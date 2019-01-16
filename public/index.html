@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <title>Chat Node</title>
+</head>
+
+<body>
+<!-- <img src="https://www.solofondos.com/wp-content/uploads/2016/09/Fondos-para-graffitis-en-papel.jpg" alt=""> -->
+<div id="chat-container">
+    <div id="chat-window">
+        <div id="output"></div>
+        <div id="actions"></div>
+    </div>
+    <input id="usermane" placeholder="Username" type="text">
+    <input id="message" placeholder="Message" type="text">
+    <button id="send">Send</button>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="chat.js"></script>
+</body>
+
+</html>
