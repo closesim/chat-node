@@ -1,4 +1,4 @@
-const socket = io()
+const socket = io.connect('/chat')
 
 //DOM elements
 let message = document.getElementById('message');
